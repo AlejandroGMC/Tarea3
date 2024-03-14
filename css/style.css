@@ -1,0 +1,144 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    grid-template-areas:
+    "area1 area1 area1 area1 area1"
+    "area2 area2 area2 area3 area4"
+    "area5 area5 area6 area6 area6"
+    "area7 area7 area7 area8 area8"
+    "area7 area7 area7 area9 area9"
+    ;
+  }
+.grid-item1 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area1;
+    border-style: solid;
+    border-color: green;
+  }
+.grid-item2 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area2;
+    border-style: solid;
+    border-color: green;
+  }
+.grid-item3 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area3;
+    border-style: solid;
+    border-color: green;
+  }
+.grid-item4 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area4;
+    border-style: solid;
+    border-color: green;
+}
+.grid-item5 {
+        background: rgb(255, 255, 255);
+        text-align: center;
+        border: black 5px solid;
+        grid-area: area5;
+        border-style: solid;
+        border-color: green;
+      }
+.grid-item6 {
+        background: rgb(255, 255, 255);
+        text-align: center;
+        border: black 5px solid;
+        grid-area: area6;
+        border-style: solid;
+        border-color: green;
+      } 
+.grid-item7 {
+        background: rgb(255, 255, 255);
+        text-align: center;
+        border: black 5px solid;
+        grid-area: area7;
+        border-style: solid;
+        border-color: green;
+      }
+.grid-item8 {
+        background: rgb(255, 255, 255);
+        text-align: center;
+        border: black 5px solid;
+        grid-area: area8;
+        border-style: solid;
+        border-color: green;
+      }
+.grid-item9 {
+        background: rgb(255, 255, 255);
+        text-align: center;
+        border: black 5px solid;
+        grid-area: area9;
+        border-style: solid;
+        border-color: green;
+      }
+      .flex-container {
+        display: flex;
+        width: 100%;
+        align-content: stretch;
+        height: 10px;
+        
+      }
+      
+      .flex-item {
+        border: 1px solid #fff;
+        margin: 1px;
+        background-color: #ffffff;
+        height: 200px;
+        border-style: solid;
+        border-color: rgb(0, 17, 255);
+      }
+      
+      .grow-1 {
+        flex-grow: 1;
+        
+      }
+      
+      .grow-2 {
+        flex-grow: 2;
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+      
+      .grow-3 {
+        flex-grow: 3
+      }
+      .caja1 {
+        border: 5px solid #fff;
+        margin: 10px;
+        background-color: #ffffff;
+        height: 50px;
+        width: calc(96% - 10px);
+        border-style: solid;
+        border-color: rgb(17, 0, 255);
+      }
+      .caja2 {
+        width: calc(46% - 10px);
+        border: 5px solid #fff;
+        margin: 15px;
+        background-color: #ffffff;
+        height: 90px;
+        border-style: solid;
+        border-color: rgb(0, 4, 255);
+      }
+      .caja3 {
+        width: calc(46% - 10px);
+        border: 5px solid #fff;
+        margin: 15px;
+        background-color: #ffffff;
+        height: 90px;
+        border-style: solid;
+        border-color: rgb(98, 0, 255);
+      }
